@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+build
+.git
+.gitignore
+README.md
+LICENSE
+Dockerfile
+.dockerignore
+.npm
+npm-debug.log

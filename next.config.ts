@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
+  output: 'standalone', // 👈 Required for multi-stage Docker builds to function properly
   turbopack: {
     root: projectRoot,
   },
