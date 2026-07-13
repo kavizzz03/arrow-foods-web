@@ -1,41 +1,31 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arrow Foods Digital Platform 🚀
 
-## Getting Started
+A premium, production-grade landing page engineered using modern backend logic concepts applied to frontend scalability. Built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Designed for ultimate local SEO efficiency targeting search intent within the Kalutara area, Sri Lanka.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Architectural & Technical Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Hyper-Targeted Local SEO Engine:** Fully custom JSON-LD `FoodEstablishment` structured microdata injected globally into the document root head to capture maximum authority rankings for localized search tags (*"best foods in kalutara"*).
+*   **Decoupled Multi-Variant State Management:** Product cards isolate layout nodes allowing variant selectors to update pricing metrics dynamically without triggering unnecessary root-level components re-renders.
+*   **Bulletproof Asset Pipelines:** Complete removal of standard Next.js asset fallbacks in favor of deterministic native link layouts mapped to high-definition branding resources (`icon.png`).
+*   **Dynamic Client-Side Interactions:** Smooth fluid interactions managed through isolated Framer Motion states, including full-screen contextual image lightboxes and fluid product carousel arrays.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technical Stack Matrix
 
-## Learn More
+*   **Framework:** Next.js 15+ (App Router, Server-Ready Architecture)
+*   **Language:** TypeScript (Strict Type Safety Matrix)
+*   **Styling Engine:** Tailwind CSS (Custom Color System & Utility Classes)
+*   **Animation Subsystem:** Framer Motion (Hardware Accelerated Transitions)
+*   **Metadata Matrix:** Native Next.js Metadata API + Head-Level Local Business JSON-LD Script
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Development & Local Installation Pipeline
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# arrow-foods-web
-🚀 High-performance Next.js 15+ landing page for Arrow Foods. Built with Tailwind CSS, TypeScript, Framer Motion, and engineered with hyper-targeted local SEO architecture for Kalutara, Sri Lanka.
->>>>>>> e051c0a1b299d03b2f119534bd9b36c46d361098
+1. Clone the project locally:
+   ```bash
+   git clone [https://github.com/kavizz/arrow-foods-web.git](https://github.com/kavizz/arrow-foods-web.git)
+   cd arrow-foods-web
